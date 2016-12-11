@@ -152,9 +152,9 @@ public class MainActivity extends AppCompatActivity {
         filter.addAction("motion.Consumer");
         MainActivity.this.registerReceiver(receiver,filter);
         //END OF INSERTION JIANXIN
-        if (speed == 0){
-            mediaPlayer.setPlaybackParams(mediaPlayer.getPlaybackParams().setSpeed(spinnerActivity.getSpeed()));
-        }
+    
+        mediaPlayer.setPlaybackParams(mediaPlayer.getPlaybackParams().setSpeed(spinnerActivity.getSpeed()));
+    
     }
 
     public void setMusicName(int mId){
@@ -193,9 +193,19 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     public  void onStop(){
-        mediaPlayer.release();
-        mediaPlayer = null;
+        if(mediaPlayer != null){
+            mediaPlayer.release();
+            mediaPlayer = null;
+        }
+       super.onStop();
 
+    }
+    public void onDestroy(){
+        if(receiver != null){
+            unregisterReceiver(receiver);
+            receiver=null;
+        }
+        super.onDestroy();
     }
 
 }
