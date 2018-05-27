@@ -11,7 +11,7 @@ Download any one of the folder-- TuneMe/mpPlaybackSpeed to your computer. Import
 Once the application is installed in your phone, play music and walk in different speed to hear change in music tempo. 
 
 ## More info: 
-[This](https://docs.google.com/document/d/1hhvgXEALQgTW6MV-vkbquzkESra9Vf8xezYH9-zYLUM/edit?usp=sharing) is a paper for the project. Demo was not archived. :( 
+[This](https://docs.google.com/document/d/1hhvgXEALQgTW6MV-vkbquzkESra9Vf8xezYH9-zYLUM/edit?usp=sharing) is a paper for the project.
 
 
 
