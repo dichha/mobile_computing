@@ -1,5 +1,7 @@
-﻿## mobile_computing class project 'TuneMe'. 
-The app changes music tempo with a user's movement speed. 
+﻿## 'TuneMe', Mobile Computing class project
+ > [This](https://drive.google.com/open?id=1pmlavLqdiw9ru35swRE_C7H0Azvp7p8R) is a paper for the project.
+## Description
+TuneMe app changes music tempo with a user's movement speed. 
 Sensors Used: android's accelerometer and gyroscope.
 MediaPlayer made using Android API 25. 
 Android device that supports the app should have version 7.1 and above.
@@ -10,8 +12,7 @@ Download any one of the folder-- TuneMe/mpPlaybackSpeed to your computer. Import
 ## How to run 
 Once the application is installed in your phone, play music and walk in different speed to hear change in music tempo. 
 
-## More info: 
-[This](https://docs.google.com/document/d/1hhvgXEALQgTW6MV-vkbquzkESra9Vf8xezYH9-zYLUM/edit?usp=sharing) is a paper for the project.
+
 
 
 
